@@ -3,7 +3,7 @@ var index;
 var offset;
 
 function setup() {
-  createCanvas(600,600);
+  createCanvas(1000,600);
   noiseDetail(2,0.9);
   rectMode(CENTER);
   //fill(0);
