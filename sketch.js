@@ -30,7 +30,7 @@ function draw() {
         let ny = (mouseY-y);
         let mx = map(s,1,0,1,nx);
         let my = map(s,1,0,1,ny);
-        if (d < 30){
+        if (d < 60){
           rect(x+mx,y+my,40*s,40*s);
         } else {
           rect(x+m,y+m,40*s,40*s);
